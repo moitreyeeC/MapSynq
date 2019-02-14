@@ -4,10 +4,11 @@ import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Pages.Live;
-
+@Listeners(CustomListener.class)
 public class LiveTest extends PersonalTest {
   @Test(priority=1,description="check live status")
   public void incident() throws InterruptedException 

@@ -3,11 +3,12 @@ package Actions;
 import static org.testng.Assert.assertEquals;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Pages.personal;
 import junit.framework.Assert;
-
+@Listeners(CustomListener.class)
 public class PersonalTest extends setUp {
   @Test(priority=0,description="Register as a new user")
   public void register() throws InterruptedException 
