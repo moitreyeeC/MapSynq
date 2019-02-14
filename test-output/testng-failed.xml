@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Actions.DirectionTest">
+      <class name="Actions.Search_LocationTest">
         <methods>
           <include name="incident"/>
           <include name="OpenURL"/>
-          <include name="direction"/>
         </methods>
-      </class> <!-- Actions.DirectionTest -->
+      </class> <!-- Actions.Search_LocationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
