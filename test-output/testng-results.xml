@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="120195" started-at="2019-02-14T13:30:15Z" finished-at="2019-02-14T13:32:15Z">
+  <suite name="Default suite" duration-ms="128073" started-at="2019-02-14T13:48:26Z" finished-at="2019-02-14T13:50:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="120195" started-at="2019-02-14T13:30:15Z" finished-at="2019-02-14T13:32:15Z">
+    <test name="Default test" duration-ms="128073" started-at="2019-02-14T13:48:26Z" finished-at="2019-02-14T13:50:34Z">
       <class name="Actions.Search_LocationTest">
-        <test-method status="PASS" signature="OpenURL()[pri:0, instance:Actions.Search_LocationTest@5a515e5d]" name="OpenURL" is-config="true" duration-ms="16643" started-at="2019-02-14T13:30:15Z" finished-at="2019-02-14T13:30:32Z">
+        <test-method status="PASS" signature="OpenURL()[pri:0, instance:Actions.Search_LocationTest@423a0e1d]" name="OpenURL" is-config="true" duration-ms="32061" started-at="2019-02-14T13:48:26Z" finished-at="2019-02-14T13:48:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenURL -->
-        <test-method status="PASS" signature="register()[pri:0, instance:Actions.Search_LocationTest@5a515e5d]" name="register" duration-ms="9455" started-at="2019-02-14T13:30:32Z" description="Register as a new user" finished-at="2019-02-14T13:30:41Z">
+        <test-method status="PASS" signature="register()[pri:0, instance:Actions.Search_LocationTest@423a0e1d]" name="register" duration-ms="11401" started-at="2019-02-14T13:48:59Z" description="Register as a new user" finished-at="2019-02-14T13:49:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="FAIL" signature="incident()[pri:1, instance:Actions.Search_LocationTest@5a515e5d]" name="incident" duration-ms="21680" started-at="2019-02-14T13:30:41Z" description="check live status" finished-at="2019-02-14T13:31:03Z">
+        <test-method status="FAIL" signature="incident()[pri:1, instance:Actions.Search_LocationTest@423a0e1d]" name="incident" duration-ms="21678" started-at="2019-02-14T13:49:10Z" description="check live status" finished-at="2019-02-14T13:49:32Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'14:07')]"}
@@ -26,8 +26,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'MHBL-MT-77', ip: '192.168.5.226', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56291}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: 788567193fed7b7cae0306ebafe7dfb7
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: fff9725c2a8d71dabb220fdf95575976
 *** Element info: {Using=xpath, value=//div[contains(text(),'14:07')]}]]>
             </message>
             <full-stacktrace>
@@ -39,8 +39,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'MHBL-MT-77', ip: '192.168.5.226', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56291}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: 788567193fed7b7cae0306ebafe7dfb7
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:58175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: fff9725c2a8d71dabb220fdf95575976
 *** Element info: {Using=xpath, value=//div[contains(text(),'14:07')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -90,19 +90,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incident -->
-        <test-method status="PASS" signature="camera()[pri:2, instance:Actions.Search_LocationTest@5a515e5d]" name="camera" duration-ms="8136" started-at="2019-02-14T13:31:03Z" description="check camera position" finished-at="2019-02-14T13:31:11Z">
+        <test-method status="PASS" signature="camera()[pri:2, instance:Actions.Search_LocationTest@423a0e1d]" name="camera" duration-ms="4557" started-at="2019-02-14T13:49:32Z" description="check camera position" finished-at="2019-02-14T13:49:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- camera -->
-        <test-method status="PASS" signature="toll()[pri:3, instance:Actions.Search_LocationTest@5a515e5d]" name="toll" duration-ms="10479" started-at="2019-02-14T13:31:11Z" description="check toll list" finished-at="2019-02-14T13:31:22Z">
+        <test-method status="PASS" signature="toll()[pri:3, instance:Actions.Search_LocationTest@423a0e1d]" name="toll" duration-ms="6724" started-at="2019-02-14T13:49:37Z" description="check toll list" finished-at="2019-02-14T13:49:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toll -->
-        <test-method status="PASS" signature="direction()[pri:4, instance:Actions.Search_LocationTest@5a515e5d]" name="direction" duration-ms="34180" started-at="2019-02-14T13:31:22Z" description="Find direction" finished-at="2019-02-14T13:31:56Z">
+        <test-method status="PASS" signature="direction()[pri:4, instance:Actions.Search_LocationTest@423a0e1d]" name="direction" duration-ms="33482" started-at="2019-02-14T13:49:43Z" description="Find direction" finished-at="2019-02-14T13:50:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- direction -->
-        <test-method status="PASS" signature="searchLocation()[pri:5, instance:Actions.Search_LocationTest@5a515e5d]" name="searchLocation" duration-ms="19023" started-at="2019-02-14T13:31:56Z" description="Search Location" finished-at="2019-02-14T13:32:15Z">
+        <test-method status="PASS" signature="searchLocation()[pri:5, instance:Actions.Search_LocationTest@423a0e1d]" name="searchLocation" duration-ms="17568" started-at="2019-02-14T13:50:17Z" description="Search Location" finished-at="2019-02-14T13:50:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchLocation -->

@@ -2,6 +2,8 @@ package Actions;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -29,8 +31,9 @@ public class setUp {
 	  {
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File source=ts.getScreenshotAs(OutputType.FILE);
+		String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss"). format(Calendar. getInstance(). getTime());
 		try {
-			FileUtils.copyFile(source, new File("./Screenshots/"+driver.getTitle()+i+"-"+".png"));
+			FileUtils.copyFile(source, new File("./Screenshots/"+timeStamp+".png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
