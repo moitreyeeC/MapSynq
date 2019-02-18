@@ -3,16 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Actions.MapTest">
+      <class name="Actions.PersonalTest">
         <methods>
-          <include name="incident"/>
           <include name="OpenURL"/>
           <include name="tearDown"/>
+          <include name="register"/>
           <include name="genrateReport"/>
-          <include name="map"/>
           <include name="init"/>
         </methods>
-      </class> <!-- Actions.MapTest -->
+      </class> <!-- Actions.PersonalTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
