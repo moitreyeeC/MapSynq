@@ -1,5 +1,6 @@
 package Pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,6 +18,7 @@ public class personal extends DriverBuilder {
 	}
 public void register()
 {
+	driver.findElement(By.xpath("//div[@id='ad_toggle']")).click();
 	personal_tab.click();
 	register_button.click();
 }

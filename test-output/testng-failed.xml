@@ -7,7 +7,10 @@
         <methods>
           <include name="incident"/>
           <include name="OpenURL"/>
+          <include name="tearDown"/>
+          <include name="genrateReport"/>
           <include name="map"/>
+          <include name="init"/>
         </methods>
       </class> <!-- Actions.MapTest -->
     </classes>

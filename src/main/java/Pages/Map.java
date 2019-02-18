@@ -48,15 +48,9 @@ public class Map extends DriverBuilder {
 		} 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Legend')]")));
 		Legend.click();
-		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[7]/div[2]/img[1]")));
-		String imageUrl=driver.findElement(By.xpath("/html[1]/body[1]/div[7]/div[2]/img[1]")).getAttribute("src");
-		System.out.println("Image source path : \n"+ imageUrl);
-		 URL url = new URL(imageUrl);
-		 Image image = ImageIO.read(url);
-		 Ocr ocr = new Ocr();
-		 String s =ocr.recognize((RenderedImage) image, ocr.RECOGNIZE_TYPE_TEXT, ocr.OUTPUT_FORMAT_PLAINTEXT, null);
-		 System.out.println("Text From Image : \n"+ s);
-		 System.out.println("Length of total text : \n"+ s.length());
+		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#OpenLayers.Geometry.Point_1216")));
+		WebElement point= driver.findElement(By.cssSelector("#OpenLayers.Geometry.Point_1216"));
+		point.click();
 
 }
 }
