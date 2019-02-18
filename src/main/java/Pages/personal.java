@@ -43,6 +43,7 @@ public void register() throws InterruptedException
 	String value="Please fill out this field";
 	SoftAssert softAssert = new SoftAssert();
 	softAssert.assertEquals(value, pleasefilloutthisfield);
+	driver.findElement(By.linkText("BACK")).click();
 	
 
 //	private boolean isTextPresent(String text){

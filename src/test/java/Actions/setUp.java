@@ -62,7 +62,7 @@ public class setUp {
 
 	@AfterSuite(alwaysRun = true)
 	public void tearDown() {
-		System.out.println("BaseTest.tearDown()");
+		System.out.println("setUp.tearDown()");
 		if (driver != null) {
 			driver.quit();
 		}
