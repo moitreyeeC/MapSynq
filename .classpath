@@ -35,5 +35,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/MHBL-77/Desktop/asprise-ocr-java-15.3.1-trial-windows/aocr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/MHBL-77/.p2/pool/plugins/org.testng_6.14.2.r201802161450.jar" sourcepath="C:/Users/MHBL-77/.p2/pool/plugins/org.testng.source_6.14.2.r201802161450.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
