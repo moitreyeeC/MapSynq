@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="2" ignored="0" total="7" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="156277" started-at="2019-02-18T13:01:01Z" finished-at="2019-02-18T13:03:38Z">
+  <suite name="Test Suite" duration-ms="183107" started-at="2019-02-19T06:35:13Z" finished-at="2019-02-19T06:38:17Z">
     <groups>
     </groups>
-    <test name="mapsynq" duration-ms="156277" started-at="2019-02-18T13:01:01Z" finished-at="2019-02-18T13:03:38Z">
+    <test name="mapsynq" duration-ms="183107" started-at="2019-02-19T06:35:13Z" finished-at="2019-02-19T06:38:17Z">
       <class name="Actions.MapTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:Actions.MapTest@5856dbe4]" name="init" is-config="true" duration-ms="4519" started-at="2019-02-18T13:00:57Z" finished-at="2019-02-18T13:01:01Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:Actions.MapTest@2fd66ad3]" name="init" is-config="true" duration-ms="5298" started-at="2019-02-19T06:35:08Z" finished-at="2019-02-19T06:35:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="OpenURL()[pri:0, instance:Actions.MapTest@5856dbe4]" name="OpenURL" is-config="true" duration-ms="20618" started-at="2019-02-18T13:01:01Z" finished-at="2019-02-18T13:01:22Z">
+        <test-method status="PASS" signature="OpenURL()[pri:0, instance:Actions.MapTest@2fd66ad3]" name="OpenURL" is-config="true" duration-ms="31139" started-at="2019-02-19T06:35:13Z" finished-at="2019-02-19T06:35:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenURL -->
-        <test-method status="PASS" signature="register()[pri:0, instance:Actions.MapTest@5856dbe4]" name="register" duration-ms="21812" started-at="2019-02-18T13:01:22Z" description="Register as a new user" finished-at="2019-02-18T13:01:44Z">
+        <test-method status="PASS" signature="register()[pri:0, instance:Actions.MapTest@2fd66ad3]" name="register" duration-ms="22809" started-at="2019-02-19T06:35:45Z" description="Register as a new user" finished-at="2019-02-19T06:36:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method status="FAIL" signature="incident()[pri:1, instance:Actions.MapTest@5856dbe4]" name="incident" duration-ms="10128" started-at="2019-02-18T13:01:44Z" description="check live status" finished-at="2019-02-18T13:01:54Z">
+        <test-method status="FAIL" signature="incident()[pri:1, instance:Actions.MapTest@2fd66ad3]" name="incident" duration-ms="22579" started-at="2019-02-19T06:36:07Z" description="check live status" finished-at="2019-02-19T06:36:30Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='refresh']"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'14:07')]"}
   (Session info: chrome=72.0.3626.109)
   (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -30,12 +30,12 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'MHBL-MT-77', ip: '192.168.5.226', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65009}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: e70de5e75b2de4fbfb65aa3ccad6298f
-*** Element info: {Using=xpath, value=//a[@class='refresh']}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50546}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: e21c67de8581abe69c4fe664f497beb8
+*** Element info: {Using=xpath, value=//div[contains(text(),'14:07')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='refresh']"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'14:07')]"}
   (Session info: chrome=72.0.3626.109)
   (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -43,9 +43,9 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'MHBL-MT-77', ip: '192.168.5.226', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65009}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: e70de5e75b2de4fbfb65aa3ccad6298f
-*** Element info: {Using=xpath, value=//a[@class='refresh']}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50546}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: e21c67de8581abe69c4fe664f497beb8
+*** Element info: {Using=xpath, value=//div[contains(text(),'14:07')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -62,11 +62,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:3
 at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at Pages.Live.incident(Live.java:34)
-at Actions.LiveTest.incident(LiveTest.java:17)
+at Actions.LiveTest.incident(LiveTest.java:26)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -98,23 +94,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incident -->
-        <test-method status="PASS" signature="camera()[pri:2, instance:Actions.MapTest@5856dbe4]" name="camera" duration-ms="4486" started-at="2019-02-18T13:01:54Z" description="check camera position" finished-at="2019-02-18T13:01:59Z">
+        <test-method status="PASS" signature="camera()[pri:2, instance:Actions.MapTest@2fd66ad3]" name="camera" duration-ms="3969" started-at="2019-02-19T06:36:30Z" description="check camera position" finished-at="2019-02-19T06:36:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- camera -->
-        <test-method status="PASS" signature="toll()[pri:3, instance:Actions.MapTest@5856dbe4]" name="toll" duration-ms="3890" started-at="2019-02-18T13:01:59Z" description="check toll list" finished-at="2019-02-18T13:02:03Z">
+        <test-method status="PASS" signature="toll()[pri:3, instance:Actions.MapTest@2fd66ad3]" name="toll" duration-ms="6243" started-at="2019-02-19T06:36:34Z" description="check toll list" finished-at="2019-02-19T06:36:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toll -->
-        <test-method status="PASS" signature="direction()[pri:4, instance:Actions.MapTest@5856dbe4]" name="direction" duration-ms="34483" started-at="2019-02-18T13:02:03Z" description="Find direction" finished-at="2019-02-18T13:02:37Z">
+        <test-method status="PASS" signature="direction()[pri:4, instance:Actions.MapTest@2fd66ad3]" name="direction" duration-ms="35074" started-at="2019-02-19T06:36:41Z" description="Find direction" finished-at="2019-02-19T06:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- direction -->
-        <test-method status="PASS" signature="searchLocation()[pri:5, instance:Actions.MapTest@5856dbe4]" name="searchLocation" duration-ms="17201" started-at="2019-02-18T13:02:37Z" description="Search Location" finished-at="2019-02-18T13:02:54Z">
+        <test-method status="PASS" signature="searchLocation()[pri:5, instance:Actions.MapTest@2fd66ad3]" name="searchLocation" duration-ms="17690" started-at="2019-02-19T06:37:16Z" description="Search Location" finished-at="2019-02-19T06:37:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchLocation -->
-        <test-method status="FAIL" signature="map()[pri:6, instance:Actions.MapTest@5856dbe4]" name="map" duration-ms="42633" started-at="2019-02-18T13:02:54Z" description="map" finished-at="2019-02-18T13:03:37Z">
+        <test-method status="FAIL" signature="map()[pri:6, instance:Actions.MapTest@2fd66ad3]" name="map" duration-ms="42720" started-at="2019-02-19T06:37:33Z" description="map" finished-at="2019-02-19T06:38:16Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.cssSelector: #OpenLayers.Geometry.Point_1216 (tried for 30 second(s) with 500 milliseconds interval)]]>
@@ -171,11 +167,11 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- map -->
-        <test-method status="PASS" signature="genrateReport()[pri:0, instance:Actions.MapTest@5856dbe4]" name="genrateReport" is-config="true" duration-ms="0" started-at="2019-02-18T13:03:38Z" finished-at="2019-02-18T13:03:38Z">
+        <test-method status="PASS" signature="genrateReport()[pri:0, instance:Actions.MapTest@2fd66ad3]" name="genrateReport" is-config="true" duration-ms="0" started-at="2019-02-19T06:38:17Z" finished-at="2019-02-19T06:38:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- genrateReport -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Actions.MapTest@5856dbe4]" name="tearDown" is-config="true" duration-ms="668" started-at="2019-02-18T13:03:38Z" finished-at="2019-02-18T13:03:38Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Actions.MapTest@2fd66ad3]" name="tearDown" is-config="true" duration-ms="695" started-at="2019-02-19T06:38:17Z" finished-at="2019-02-19T06:38:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

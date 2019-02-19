@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 18 18:31:01 IST 2019</td>
+<td>Started on:</td><td>Tue Feb 19 12:05:13 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>156 seconds (156277 ms)</td>
+<tr><td>Total time:</td><td>183 seconds (183107 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,7 +76,7 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='Actions.MapTest.incident()'><b>incident</b><br>Test class: Actions.MapTest<br>Test method: check live status</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;refresh&apos;]&quot;}
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;14:07&apos;)]&quot;}
   (Session info: chrome=72.0.3626.109)
   (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -84,9 +84,9 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;MHBL-MT-77&apos;, ip: &apos;192.168.5.226&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65009}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: e70de5e75b2de4fbfb65aa3ccad6298f
-*** Element info: {Using=xpath, value=//a[@class=&apos;refresh&apos;]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50546}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: e21c67de8581abe69c4fe664f497beb8
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;14:07&apos;)]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -99,13 +99,9 @@ Session ID: e70de5e75b2de4fbfb65aa3ccad6298f
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at Pages.Live.incident(Live.java:34)
-	at Actions.LiveTest.incident(LiveTest.java:17)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2103485999", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2103485999'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;refresh&apos;]&quot;}
+	at Actions.LiveTest.incident(LiveTest.java:26)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace990870941", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace990870941'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;14:07&apos;)]&quot;}
   (Session info: chrome=72.0.3626.109)
   (Driver info: chromedriver=73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -113,9 +109,9 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;MHBL-MT-77&apos;, ip: &apos;192.168.5.226&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_191&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65009}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
-Session ID: e70de5e75b2de4fbfb65aa3ccad6298f
-*** Element info: {Using=xpath, value=//a[@class=&apos;refresh&apos;]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.20 (8e2b610813e16..., userDataDir: C:\Users\MHBL-77\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50546}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: e21c67de8581abe69c4fe664f497beb8
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;14:07&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -132,11 +128,7 @@ Session ID: e70de5e75b2de4fbfb65aa3ccad6298f
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.click(Unknown Source)
-	at Pages.Live.incident(Live.java:34)
-	at Actions.LiveTest.incident(LiveTest.java:17)
+	at Actions.LiveTest.incident(LiveTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -163,8 +155,8 @@ Session ID: e70de5e75b2de4fbfb65aa3ccad6298f
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>10</td>
-<td>Actions.MapTest@5856dbe4</td></tr>
+<td>22</td>
+<td>Actions.MapTest@2fd66ad3</td></tr>
 <tr>
 <td title='Actions.MapTest.map()'><b>map</b><br>Test class: Actions.MapTest<br>Test method: map</td>
 <td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #OpenLayers.Geometry.Point_1216 (tried for 30 second(s) with 500 milliseconds interval)
@@ -187,8 +179,8 @@ Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
 	... 27 more
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace482832814", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace482832814'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #OpenLayers.Geometry.Point_1216 (tried for 30 second(s) with 500 milliseconds interval)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2078154554", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2078154554'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.cssSelector: #OpenLayers.Geometry.Point_1216 (tried for 30 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
 	at Pages.Map.map(Map.java:51)
@@ -235,7 +227,7 @@ Driver info: driver.version: unknown
 	... 27 more
 </pre></div></td>
 <td>42</td>
-<td>Actions.MapTest@5856dbe4</td></tr>
+<td>Actions.MapTest@2fd66ad3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -247,28 +239,28 @@ Driver info: driver.version: unknown
 <tr>
 <td title='Actions.MapTest.camera()'><b>camera</b><br>Test class: Actions.MapTest<br>Test method: check camera position</td>
 <td></td>
-<td>4</td>
-<td>Actions.MapTest@5856dbe4</td></tr>
+<td>3</td>
+<td>Actions.MapTest@2fd66ad3</td></tr>
 <tr>
 <td title='Actions.MapTest.direction()'><b>direction</b><br>Test class: Actions.MapTest<br>Test method: Find direction</td>
 <td></td>
-<td>34</td>
-<td>Actions.MapTest@5856dbe4</td></tr>
+<td>35</td>
+<td>Actions.MapTest@2fd66ad3</td></tr>
 <tr>
 <td title='Actions.MapTest.register()'><b>register</b><br>Test class: Actions.MapTest<br>Test method: Register as a new user</td>
 <td></td>
-<td>21</td>
-<td>Actions.MapTest@5856dbe4</td></tr>
+<td>22</td>
+<td>Actions.MapTest@2fd66ad3</td></tr>
 <tr>
 <td title='Actions.MapTest.searchLocation()'><b>searchLocation</b><br>Test class: Actions.MapTest<br>Test method: Search Location</td>
 <td></td>
 <td>17</td>
-<td>Actions.MapTest@5856dbe4</td></tr>
+<td>Actions.MapTest@2fd66ad3</td></tr>
 <tr>
 <td title='Actions.MapTest.toll()'><b>toll</b><br>Test class: Actions.MapTest<br>Test method: check toll list</td>
 <td></td>
-<td>3</td>
-<td>Actions.MapTest@5856dbe4</td></tr>
+<td>6</td>
+<td>Actions.MapTest@2fd66ad3</td></tr>
 </table><p>
 </body>
 </html>
